@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+	<head>
+		<title>
+			United Kingdom - Image Gallery - Wales
+		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" type="text/css" href="../stylesheets/image gallery/image_gallery_country_stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="../stylesheets/fixed_nav.css">
+		<link rel="shortcut icon" href="../images/WAL_flag.jpg">
+		<script src = "../scripts/jquery-1.11.0.js" type="text/javascript"></script>
+		<script src = "../scripts/fixed_nav.js" type="text/javascript"></script>
+		<script src = "../scripts/image gallery/image_gallery_scot_fadeinout.js" type="text/javascript"></script>
+		<script src = "../scripts/image gallery/image_viewer.js" type="text/javascript"></script>
+	</head>
+	<body id = "body">
+		<!-- nav bar: start -->
+		<div id = "top_nav_main_container">
+			<div id = "top_nav_main_container">
+			<div id = "top_nav_container">
+				<ul class = "ul_style">
+					<a href="../index.html" class = "a_styles"><div class = "home_nav">
+						<p class = "top_nav_title_ps" id = "top_nav_title_HME">
+							HOME
+						</p>
+					</div></a>
+					<a href="../image gallery/image_gallery.html" class = "a_styles"><div class = "main_navs" id = "GALL_topnav">
+						<p class = "top_nav_title_ps" id = "top_nav_title_GALL">
+							GALLERY
+						</p>
+					</div></a>
+					<a href="../countries/england.html" class = "a_styles"><div class = "main_navs" id = "ENG_topnav">
+						<p class = "top_nav_title_ps" id = "top_nav_title_ENG">
+							ENGLAND
+						</p>
+					</div></a>
+					<a href="../countries/scotland.html" class = "a_styles"><div class = "main_navs" id = "COUNTRY_topnav">
+						<p class = "top_nav_title_ps" id = "top_nav_title_COUNTRY">
+							SCOTLAND
+						</p>
+					</div></a>
+					<a href="../countries/wales.html" class = "a_styles"><div class = "main_navs" id = "WAL_topnav">
+						<p class = "top_nav_title_ps" id = "top_nav_title_WAL">
+							WALES
+						</p>
+					</div></a>
+					<a href="../countries/nireland.html" class = "a_styles"><div class = "main_navs" id = "IRL_topnav">
+						<p class = "top_nav_title_ps" id = "top_nav_title_IRL">
+							N.IRELAND
+						</p>
+					</div></a>
+				</ul>
+			</div>
+		</div>
+		<!-- nav bar: end -->
+		<!-- title bar: start -->
+		<div id = "title_bar_container">
+			<img src = "../images/wal_flag.jpg" id = "title_div_flag"/>
+			<div id = "dark_trans_cover"></div>
+			<div id = "title_p_container">
+				<p id = "title_p">
+					Wales
+				</p>
+			</div>
+		</div>
+		<!-- title bar: end -->
+		<div id = "country_info_container_main">
+			<ul class = "ul_style">
+				<div id = "info_COUNTRYinfo">
+					<!-- image viewer dark cover: start -->
+					<div id = "image_viewer_dark_cover"></div>
+					<!-- image viewer dark cover: end -->
+					<div id = "imgs_main_container">
+						<ul class = "ul_style">
+							<!-- image viewer: start -->
+							<div id = "image_viewer_main_container">
+								<div id = "img_container_container">
+									<div id = "img_container">
+										<img src="../images/image viewer/Scotland/img1.jpg" class = "img_style" id = "MAIN_IMG">
+									</div>
+								</div>
+								<div id = "nav_hide_fix">
+									<div id = "img_nav_container">
+										<ul class = "ul_style">
+											<div class = "img_nav_style" id = "img_nav_container_l" onclick = "imageViewerNav('prev')">
+												<p class = "img_nav_p" id = "img_nav_l_p">
+													<<
+												</p>
+											</div>
+											<div class = "img_nav_style" id = "img_nav_container_r" onclick = "imageViewerNav('next')">
+												<p class = "img_nav_p" id = "img_nav_r_p">
+													>>
+												</p>
+											</div>
+										</ul>
+									</div>
+									<div id = "pos_main_container">
+										<div id = "pos_trans_dark_cover"></div>
+										<p id = "img_pos_p">
+											1/20
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- image viewer: end -->
+							<!-- image containers: start -->
+							<div class = "img_containers TOP" id = "img1" onclick = "imageViewer('img', '1')">
+								<img src="../images/image viewer/Wales/img1.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers TOP" id = "img2" onclick = "imageViewer('img', '2')">
+								<img src="../images/image viewer/Wales/img2.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers TOP" id = "img3" onclick = "imageViewer('img', '3')">
+								<img src="../images/image viewer/Wales/img3.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers TOP" id = "img4" onclick = "imageViewer('img', '4')">
+								<img src="../images/image viewer/Wales/img4.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers TOP" id = "img5" onclick = "imageViewer('img', '5')">
+								<img src="../images/image viewer/Wales/img5.jpg" class = "img_style">
+							</div>
+						</ul>
+						<ul class = "ul_style">
+							<div class = "img_containers" id = "img6" onclick = "imageViewer('img', '6')">
+								<img src="../images/image viewer/Wales/img6.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img7" onclick = "imageViewer('img', '7')">
+								<img src="../images/image viewer/Wales/img7.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img8" onclick = "imageViewer('img', '8')">
+								<img src="../images/image viewer/Wales/img8.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img9" onclick = "imageViewer('img', '9')">
+								<img src="../images/image viewer/Wales/img9.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img10" onclick = "imageViewer('img', '10')">
+								<img src="../images/image viewer/Wales/img10.jpg" class = "img_style">
+							</div>
+						</ul>
+						<ul class = "ul_style">
+							<div class = "img_containers" id = "img11" onclick = "imageViewer('img', '11')">
+								<img src="../images/image viewer/Wales/img11.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img12" onclick = "imageViewer('img', '12')">
+								<img src="../images/image viewer/Wales/img12.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img13" onclick = "imageViewer('img', '13')">
+								<img src="../images/image viewer/Wales/img13.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img14" onclick = "imageViewer('img', '14')">
+								<img src="../images/image viewer/Wales/img14.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img15" onclick = "imageViewer('img', '15')">
+								<img src="../images/image viewer/Wales/img15.jpg" class = "img_style">
+							</div>
+						</ul>
+						<ul class = "ul_style">
+							<div class = "img_containers" id = "img16" onclick = "imageViewer('img', '16')">
+								<img src="../images/image viewer/Wales/img16.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img17" onclick = "imageViewer('img', '17')">
+								<img src="../images/image viewer/Wales/img17.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img18" onclick = "imageViewer('img', '18')">
+								<img src="../images/image viewer/Wales/img18.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img19" onclick = "imageViewer('img', '19')">
+								<img src="../images/image viewer/Wales/img19.jpg" class = "img_style">
+							</div>
+							<div class = "img_containers" id = "img20" onclick = "imageViewer('img', '20')">
+								<img src="../images/image viewer/Wales/img20.jpg" class = "img_style">
+							</div>
+						</ul>
+						<!-- image containers: end -->
+					</div>
+				</div>
+			</ul>
+		</div>
+		<!-- footer bar: start -->
+		<div id = "footer_container">
+			<p id = "DD_p">
+				design and development by <a id = "DD_nme">Murrray Watson</a>
+			</p>
+		</div>
+		<!-- footer bar: end -->
+	</body>
+</html>
